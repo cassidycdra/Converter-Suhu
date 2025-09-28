@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Converter Suhu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Converter Suhu</h1>
+    
+    <input type="number" id="inputSuhu" placeholder="Masukkan suhu...">
+
+    <div class="select-box">
+      <select id="fromUnit">
+        <option value="celsius">Celsius (°C)</option>
+        <option value="fahrenheit">Fahrenheit (°F)</option>
+        <option value="kelvin">Kelvin (K)</option>
+      </select>
+      <span>→</span>
+      <select id="toUnit">
+        <option value="celsius">Celsius (°C)</option>
+        <option value="fahrenheit">Fahrenheit (°F)</option>
+        <option value="kelvin">Kelvin (K)</option>
+      </select>
+    </div>
+
+    <button onclick="convert()">Konversi</button>
+
+    <div class="output">
+      <p id="hasil"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
