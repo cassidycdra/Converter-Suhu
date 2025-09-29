@@ -20,7 +20,7 @@ and convert it to another unit.
 This project was built to practice file separation (HTML, CSS, JS) 
 and basic mathematical conversion logic.
 
-Bahasa Indonesia
+# Bahasa Indonesia
 # Converter Suhu
 
 Proyek sederhana untuk belajar **HTML, CSS, dan JavaScript** dengan membuat aplikasi
